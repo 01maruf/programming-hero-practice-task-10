@@ -4,16 +4,247 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>programming-hero-practice-task-10</title>
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- tailwind cdn link  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- daisy ui cdn link  -->
-
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
       rel="stylesheet"
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome  -->
+    <script
+      src="https://kit.fontawesome.com/eaf9e3cac8.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .font {
+        font-family: "Fira Sans", sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+  <body class="font">
+    <header class="container mx-auto">
+      <!-- hero  -->
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="flex-1">
+            <img class="" src="./images/banner.png" alt="" />
+
+            <div
+              class="flex gap-5 px-5 py-5 items-center bg-white w-60 rounded-lg -mt-28 drop-shadow-lg ml-20"
+            >
+              <i class="fas fa-star text-3xl text-amber-400"></i>
+              <div class="flex flex-col">
+                <h1 class="text-3xl text-extrabold">5.00</h1>
+
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1">
+            <h1 class="text-5xl font-extrabold">
+              It's good tea <br />
+              time at <br />
+              The Tea House
+            </h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button class="btn btn-primary">Explore More</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto" >
+      <!-- card  -->
+      <section class="container mx-auto" >
+        <div class="text-center py-20">
+          <h1 class="text-5xl text-extrabold py-5">Our Featured Products</h1>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            <br />
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-10 ">
+          <div>
+            <div class="card  bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl">Milk Tea</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="card  bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl">Black Tea</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions">
+                 
+                </div>
+              </div>
+            </div>
+         
+            <div class="card  bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl">Lemon Tea</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions">
+                 
+                </div>
+              </div>
+            </div>
+         
+            <div class="card  bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./images/tea-4.png" alt="Shoes" class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl">Green tea</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!-- great tea  -->
+      <section class=" container mx-auto m-20  ">
+        <div class="flex flex-col lg:flex-row gap-20">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 flex-1 " >
+            <div class="bg-blue-400 h-36 rounded-xl"></div>
+            <div class="row-span-2 bg-slate-400 rounded-xl">
+              <img  class="mx-auto p-10" src="images/fresh-1.png" alt="">
+            </div>
+            <div class="row-span-2 bg-slate-400 rounded-xl ">
+              <img class="mx-auto p-10"  src="images/fresh-2.png" alt="">
+            </div>
+            <div  class="bg-red-400 h-36 rounded-xl"></div>
+
+          </div>
+          <div class="flex-1">
+            <h3 class="text-5xl font-extrabold">
+              Great Tea, Freshly <br> Presented
+            </h3>
+            <p>The meaning of gong cha is chanese is to provide the best tea <br> to emperor from all possessions . It represents the highest quality and self <br>expectation. Establishing in 2006, Gong cha had been deeply <br>appreciated by its custoers  because of good words of mouth <br> and unique customized service orginated from Taiwan.</p>
+            <h2 class="text-2xl font-extrabold">Unique Taste</h2>
+            <p>A Unique and different style from <br> other teapots gives a luxurious <br> and minimalist impression</p>
+            <h2 class="text-2xl font-extrabold">Premium Quality</h2>
+            <p> to emperor from all possessions . It represents the highest quality and self <br>expectation. </p>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- super clients  -->
+      <section class="container mx-auto m-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-20 ">
+        <div class="flex flex-col md:flex-row gap-14 items-center flex-1 ">
+          <div class="text-white ">
+            <h2 class="text-5xl font-extrabold mb-5">
+              Meet Our Super <br> Clients
+
+            </h2>
+            <p class="mb-5 text-xl">There are many variations of <br> passages of Lorem Ipsum available, <br>  but the majority have suffered alteration in some form, by injected <br> humour, or randomised words which don't look even slightly believable. </p>
+            <button class="btn btn-primary">Show All</button>
+
+          </div>
+          <div class=" relative  ">
+           <!-- next-card  -->
+            <div class="card mb-16  z-10 opacity-10  rounded-lg  bg-base-100 shadow-xl flex-1 ">
+              <div class="card-body relative ">
+                <img class="w-14 absolute -mt-14 -ml-12"  src="./images/client.png" alt="">
+                <p class="text-xl">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <div class="card-actions justify-end">
+                  <h1 class="text-xl">Ilham Yuda</h1> 
+                  <p>Businessman</p>
+                </div>
+              </div>
+            </div>
+            <!-- curennt card  -->
+            <div class="card absolute top-20 right-28 z-20 rounded-lg  bg-base-100 shadow-xl flex-1 ">
+              <div class="card-body relative ">
+                <img class="w-14 absolute -mt-14 -ml-12"  src="./images/client.png" alt="">
+                <p class="text-xl">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <div class="card-actions justify-end">
+                  <h1 class="text-xl">Ilham Yuda</h1> 
+                  <p>Businessman</p>
+                </div>
+              </div>
+            </div>
+            <!-- prv-card  -->
+            <div class="card  opacity-10   z-10 rounded-lg  bg-base-100 shadow-xl flex-1 ">
+              <div class="card-body relative ">
+                <img class="w-14 absolute -mt-14 -ml-12"  src="./images/client.png" alt="">
+                <p class="text-xl">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <div class="card-actions justify-end">
+                  <h1 class="text-xl">Ilham Yuda</h1> 
+                  <p>Businessman</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      
+
+      </section>
+
+    </main>
+    <footer class="container mx-auto">
+      <footer class="footer p-10 bg-base-200 text-base-content">
+        <div>
+          <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg>
+          <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+        </div> 
+        <div>
+          <span class="footer-title">Services</span> 
+          <a class="link link-hover">Branding</a> 
+          <a class="link link-hover">Design</a> 
+          <a class="link link-hover">Marketing</a> 
+          <a class="link link-hover">Advertisement</a>
+        </div> 
+        <div>
+          <span class="footer-title">Company</span> 
+          <a class="link link-hover">About us</a> 
+          <a class="link link-hover">Contact</a> 
+          <a class="link link-hover">Jobs</a> 
+          <a class="link link-hover">Press kit</a>
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Terms of use</a> 
+          <a class="link link-hover">Privacy policy</a> 
+          <a class="link link-hover">Cookie policy</a>
+        </div>
+      </footer>
+    </footer>
+  </body>
 </html>
